@@ -1,12 +1,14 @@
+import { useContext } from "react";
 import { useRoutes } from "react-router-dom";
 
+import AuthContext from "../context/auth";
 import UnAuthRoutes from "./UnAuthRoutes";
 import AuthRoutes from "./AuthRoutes";
 
-const DUMMY_USER_LOGGED_IN = false;
-
 const GlobalRoutes = () => {
-  let activeRoutes = DUMMY_USER_LOGGED_IN ? AuthRoutes : UnAuthRoutes;
+  const { userAuth } = useContext(AuthContext);
+
+  let activeRoutes = userAuth ? AuthRoutes : UnAuthRoutes;
 
   return useRoutes(activeRoutes);
 };
