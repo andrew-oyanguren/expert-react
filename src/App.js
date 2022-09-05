@@ -1,9 +1,7 @@
+import GlobalRoutes from "./routes/GlobalRoutes";
+
 function App() {
-  return (
-    <>
-      <h1>React Clean Reset</h1>
-    </>
-  );
+  return <GlobalRoutes />;
 }
 
 export default App;
