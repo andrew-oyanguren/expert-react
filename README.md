@@ -10,7 +10,7 @@ The tools I will be using are a variety of third party libraries, firebase, and 
 ## What will be considered a success?
 
 - come away with expanding my knowledge in React, and if I have developed a deeper understanding in areas where I feel strong.
-- If I have improved my ability writing tests using Jest and the React testing library.
+- If I have improved my ability writing tests using Jest and using the React testing library.
 - To have gained experience with third party libraries, and generally expanded my engineering toolset.
 
 # Libraries and tools of focus:
